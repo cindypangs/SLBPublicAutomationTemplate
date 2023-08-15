@@ -16,19 +16,19 @@ def click():
 
 
 # Move mouse to a location and click on it
-pyautogui.moveTo(x,y,button='left')
+pyautogui.moveTo(x,y)
 pyautogui.click(x,y,button='left')
 
 # Move mouse to a location and right click on it
-pyautogui.moveTo(x,y,button='right')
+pyautogui.moveTo(x,y)
 pyautogui.click(x,y,button='right')
 
 # Move mouse to a location and double click on it
-pyautogui.moveTo(x,y,button='left')
+pyautogui.moveTo(x,y)
 pyautogui.doubleClick(x,y,button='left')
 
 # Move mouse to a location and triple click on it
-pyautogui.moveTo(x,y,button='left')
+pyautogui.moveTo(x,y)
 pyautogui.tripleClick(x,y,button='left')
 
 # Press two keys at once (eg. alt and space)
