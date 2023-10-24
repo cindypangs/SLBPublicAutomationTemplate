@@ -24,6 +24,6 @@ For the template to work:
 Getting the coordinates of your mouse:
 - Open a new terminal and type in ```python``` or ```py```.
 - Type in ```import pyautogui``` to import the library.
-- Type in ```pyautogui.position()``` and move your mouse to the desired position before executing the code.
+- Type in ```pyautogui.position()``` and move your mouse to the desired position before pressing enter.
 - In the terminal you should be able to see the corrdination in (x,y) formation of your mouse.
 - Replace this number with the (x,y) coordinates in the template.
