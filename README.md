@@ -21,7 +21,7 @@ For the template to work:
     - If you're using Command Prompt, type in ```notepad template.py``` and you'll see the template file.
     - Save this on your local desktop and alter it. DO NOT ALTER IT STRAIGHTAWAY. You must first save it locally to ensure this template does not get changed for others.
 
-  Getting the coordinates of your mouse:
+Getting the coordinates of your mouse:
 - Open a new terminal and type in ```python``` or ```py```.
 - Type in ```import pyautogui``` to import the library.
 - Type in ```pyautogui.position()``` and move your mouse to the desired position before executing the code.
