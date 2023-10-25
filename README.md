@@ -1,5 +1,5 @@
 # Create your own processes
-You can create your own automation process with the template by downloading template.py in this repository. From there, you can alter the code to do tasks to your own likings. 
+You can create your own automation process with the template by choosing the template with ```cd Template```. From there, you can alter the code to do tasks to your own likings. 
 To find the coordination of your mouse:
 
 For the template to work:
@@ -13,7 +13,7 @@ For the template to work:
     - Click okay.
     - Kill your terminal.
     - Restart your computer.
-- Choose your IDLE. I use VS Code, however, you can use command prompt that's already installed in windows by default.
+- Choose your IDLE. I use VS Code, however, you can use command prompt that's already installed in windows by default or the python IDLE after you have installed python.
 - If you do not want to use the template and you want to use Command Prompt to create a new file, in your terminal type in ```notepad```. If you're using other IDLE, simply start typing in a new file.
 - Otherwise, if you want to use the template:
     - On your terminal, type in ```git clone https://github.com/cindypangs/SLBPublicAutomationTemplate.git```
@@ -24,6 +24,6 @@ For the template to work:
 Getting the coordinates of your mouse:
 - Open a new terminal and type in ```python``` or ```py```.
 - Type in ```import pyautogui``` to import the library.
-- Type in ```pyautogui.position()``` and move your mouse to the desired position before pressing enter.
+- Type in ```pyautogui.position()``` and move your mouse to the desired position before executing the code.
 - In the terminal you should be able to see the corrdination in (x,y) formation of your mouse.
 - Replace this number with the (x,y) coordinates in the template.
