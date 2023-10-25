@@ -1,5 +1,5 @@
 # Create your own processes
-You can create your own automation process with the template by choosing the template with ```cd Template```. From there, you can alter the code to do tasks to your own likings. 
+You can create your own automation process with the template by downloading template.py in this repository. From there, you can alter the code to do tasks to your own likings. 
 To find the coordination of your mouse:
 
 For the template to work:
